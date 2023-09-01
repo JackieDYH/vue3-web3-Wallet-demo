@@ -10,6 +10,7 @@ https://docs.ethers.org/v6/
 - walletconnect
 npm install @web3modal/ethereum @web3modal/html @wagmi/core viem
 
+npm install --save-dev @babel/plugin-transform-private-methods
 http://www.walletconnect.asia/2.0/
 https://docs.walletconnect.com/2.0/
 

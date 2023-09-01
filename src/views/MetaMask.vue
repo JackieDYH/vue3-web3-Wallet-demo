@@ -1,7 +1,7 @@
 <!--
  * @Author: Jackie
  * @Date: 2023-06-25 09:58:10
- * @LastEditTime: 2023-09-01 18:17:28
+ * @LastEditTime: 2023-09-01 18:26:09
  * @LastEditors: Jackie
  * @Description: file content
  * @FilePath: /Vue3-Wallet-demo/src/views/MetaMask.vue
@@ -17,8 +17,8 @@
 </template>
 <script setup>
 import { onMounted, onUnmounted } from 'vue';
-// import { ethers } from 'ethers';
-// console.log('ethers', ethers);
+import { ethers } from 'ethers';
+console.log('ethers', ethers);
 
 // 获取用户钱包地址
 const getAddress = async () => {
@@ -53,7 +53,7 @@ const getAddress = async () => {
     );
     console.log(s);
   }
-  console.log('signer', signer.address, provider);
+  console.log('signer', signer.address, provider, window.web3);
 };
 
 onMounted(() => {
