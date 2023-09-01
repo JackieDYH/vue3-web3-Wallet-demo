@@ -1,7 +1,7 @@
 <!--
  * @Author: Jackie
  * @Date: 2023-06-25 09:58:10
- * @LastEditTime: 2023-09-01 16:38:55
+ * @LastEditTime: 2023-09-01 18:13:34
  * @LastEditors: Jackie
  * @Description: file content
  * @FilePath: /Vue3-Wallet-demo/src/views/MetaMask.vue
@@ -11,8 +11,8 @@
   <div class="MetaMask">
     <h1>This is an MetaMask page</h1>
     <button @click="getAddress">获取用户地址</button>
-    <button @click="connectMetaMask">连接MetaMask</button>
-    <button @click="sendTransaction">发送交易</button>
+    <!-- <button @click="connectMetaMask">连接MetaMask</button>
+    <button @click="sendTransaction">发送交易</button> -->
   </div>
 </template>
 <script setup>
@@ -65,9 +65,9 @@ onMounted(() => {
 
 onUnmounted(() => {
   console.log('销毁');
-  window.ethereum.removeListener('accountsChanged', (accounts) => {
-    // 处理账户变更事件
-    console.log('账户地址已变更-2', accounts);
-  });
+  // window.ethereum.removeListener('accountsChanged', (accounts) => {
+  //   // 处理账户变更事件
+  //   console.log('账户地址已变更-2', accounts);
+  // });
 });
 </script>

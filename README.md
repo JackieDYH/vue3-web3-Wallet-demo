@@ -5,7 +5,13 @@ web3钱包登录demo
 - metamask
 npm install ethers
 
+https://docs.ethers.org/v6/
+
 - walletconnect
+npm install @web3modal/ethereum @web3modal/html @wagmi/core viem
+
+http://www.walletconnect.asia/2.0/
+https://docs.walletconnect.com/2.0/
 
 
 ```
