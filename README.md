@@ -8,11 +8,17 @@ npm install ethers
 https://docs.ethers.org/v6/
 
 - walletconnect
+html版本
 npm install @web3modal/ethereum @web3modal/html @wagmi/core viem
+https://docs.walletconnect.com/2.0/
+
+vue版本 - 不能用
+npm install @web3modal/wagmi@3.0.0-alpha.5 @wagmi/core viem
+https://docs.walletconnect.com/2.0/web3modal/v3/vue/about
 
 npm install --save-dev @babel/plugin-transform-private-methods
 http://www.walletconnect.asia/2.0/
-https://docs.walletconnect.com/2.0/
+
 
 
 ```
