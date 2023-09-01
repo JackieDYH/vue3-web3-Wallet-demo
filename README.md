@@ -2,6 +2,9 @@
 
 ```
 web3钱包登录demo
+- metamask
+- walletconnect
+
 
 ```
 
