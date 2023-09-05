@@ -14,6 +14,13 @@ npm install @web3modal/ethereum @web3modal/html @wagmi/core viem
 // npm install --save @walletconnect/sign-client lokijs@1.x
 https://docs.walletconnect.com/2.0/
 
+- use-wagmi viem
+npm install use-wagmi viem
+https://juejin.cn/post/7260732088411439141?from=search-suggest
+
+- walletconnect web3modal
+npm install --save @walletconnect/sign-client @web3modal/standalone
+https://juejin.cn/post/7217999181800685627
 
 - particle wallet - 不好用
 npm i @particle-network/connect

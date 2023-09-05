@@ -1,7 +1,7 @@
 /*
  * @Author: Jackie
  * @Date: 2023-06-25 09:58:10
- * @LastEditTime: 2023-09-05 11:04:54
+ * @LastEditTime: 2023-09-05 20:42:39
  * @LastEditors: Jackie
  * @Description: file content
  * @FilePath: /Vue3-Wallet-demo/src/router/index.js
@@ -29,6 +29,16 @@ const routes = [
     path: '/particleconnevct',
     name: 'particleconnevct',
     component: () => import('@/views/ParticleConnevct.vue')
+  },
+  {
+    path: '/usewagmi',
+    name: 'usewagmi',
+    component: () => import('@/views/UseWagmi.vue')
+  },
+  {
+    path: '/webmodal',
+    name: 'webmodal',
+    component: () => import('@/views/WebModal.vue')
   }
 ];
 
