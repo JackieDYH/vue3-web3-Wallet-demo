@@ -10,6 +10,8 @@ https://docs.ethers.org/v6/
 - walletconnect
 html版本
 npm install @web3modal/ethereum @web3modal/html @wagmi/core viem
+// npm install @walletconnect/sign-client
+// npm install --save @walletconnect/sign-client lokijs@1.x
 https://docs.walletconnect.com/2.0/
 
 

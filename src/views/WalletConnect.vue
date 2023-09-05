@@ -1,7 +1,7 @@
 <!--
  * @Author: Jackie
  * @Date: 2023-09-01 15:05:56
- * @LastEditTime: 2023-09-01 20:41:50
+ * @LastEditTime: 2023-09-05 15:34:51
  * @LastEditors: Jackie
  * @Description: https环境
  * @FilePath: /Vue3-Wallet-demo/src/views/WalletConnect.vue
@@ -13,6 +13,7 @@
     <button @click="modal">Walletconnect</button>
     <w3m-core-button>Walletconnect2</w3m-core-button>
     <button @click="getAddress">获取地址</button>
+    <button @click="getSign">获取签名</button>
   </div>
 </template>
 <script setup>
@@ -30,6 +31,7 @@ import {
   getAccount,
   getContract
 } from '@wagmi/core';
+// import { createSession, signMessage } from '@walletconnect/sign-client';
 
 const projectId = process.env.VUE_APP_PROJECTID;
 if (!projectId) {
@@ -54,6 +56,32 @@ const modal = () => {
 const getAddress = async () => {
   const account = await getAccount(ethereumClient);
   console.log('account', account);
+};
+
+const getSign = async () => {
+  try {
+    // 创建会话
+    /* 配置选项 */
+    // const config = {
+    //   bridge: 'https://bridge.walletconnect.org',
+    //   uri: 'wc:...',
+    //   session: {
+    //     /* 已有的会话对象 */
+    //   },
+    //   chainId: 1,
+    //   handshakeTopic: 'MyApp',
+    //   metadata: {
+    //     /* 自定义元数据信息 */
+    //   }
+    // };
+    // const session = await createSession(config);
+    // // 使用会话进行消息签名
+    // const message = 'Hello, world!';
+    // const signedMessage = await signMessage(session, message);
+    // console.log('signedMessage', signedMessage);
+  } catch (error) {
+    console.log('error', error);
+  }
 };
 
 onMounted(() => {});
