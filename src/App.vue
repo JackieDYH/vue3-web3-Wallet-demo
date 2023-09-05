@@ -1,7 +1,7 @@
 <!--
  * @Author: Jackie
  * @Date: 2023-06-25 09:58:10
- * @LastEditTime: 2023-09-01 15:07:55
+ * @LastEditTime: 2023-09-05 11:05:16
  * @LastEditors: Jackie
  * @Description: file content
  * @FilePath: /Vue3-Wallet-demo/src/App.vue
@@ -11,7 +11,8 @@
   <nav>
     <router-link to="/">Home</router-link> |
     <router-link to="/metamask">MetaMask</router-link> |
-    <router-link to="/walletconnect">WalletConnect</router-link>
+    <router-link to="/walletconnect">WalletConnect</router-link> |
+    <router-link to="/particleconnevct">ParticleConnevct</router-link>
   </nav>
   <router-view />
 </template>

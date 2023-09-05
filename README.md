@@ -12,6 +12,12 @@ html版本
 npm install @web3modal/ethereum @web3modal/html @wagmi/core viem
 https://docs.walletconnect.com/2.0/
 
+
+- particle wallet - 不好用
+npm i @particle-network/connect
+https://docs.particle.network/developers/connect-service/sdks/web
+https://github.com/Particle-Network/particle-web-demo/blob/master/packages/vue-vite-starter/src/App.vue
+
 vue版本 - 不能用
 npm install @web3modal/wagmi@3.0.0-alpha.5 @wagmi/core viem
 https://docs.walletconnect.com/2.0/web3modal/v3/vue/about
