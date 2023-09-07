@@ -1,7 +1,7 @@
 /*
  * @Author: Jackie
  * @Date: 2023-06-25 09:58:10
- * @LastEditTime: 2023-09-05 20:42:39
+ * @LastEditTime: 2023-09-07 19:57:03
  * @LastEditors: Jackie
  * @Description: file content
  * @FilePath: /Vue3-Wallet-demo/src/router/index.js
@@ -24,6 +24,11 @@ const routes = [
     path: '/walletconnect',
     name: 'walletconnect',
     component: () => import('@/views/WalletConnect.vue')
+  },
+  {
+    path: '/walletconnect2',
+    name: 'walletconnect2',
+    component: () => import('@/views/WalletConnectV2.vue')
   },
   {
     path: '/particleconnevct',
