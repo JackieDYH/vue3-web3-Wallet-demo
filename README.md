@@ -22,6 +22,9 @@ https://juejin.cn/post/7260732088411439141?from=search-suggest
 npm install --save @walletconnect/sign-client @web3modal/standalone
 https://juejin.cn/post/7217999181800685627
 
+- walletconnect - vue github 可以用
+https://github.com/kolirt/vue-web3-auth
+
 - particle wallet - 不好用
 npm i @particle-network/connect
 https://docs.particle.network/developers/connect-service/sdks/web
